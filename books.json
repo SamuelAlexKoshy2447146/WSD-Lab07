@@ -1,0 +1,202 @@
+{
+    "9780134853979": {
+        "title": "Modern Operating Systems",
+        "author": "Andrew S. Tanenbaum, Herbert Bos",
+        "publisher": "Pearson",
+        "volume": "4th Edition",
+        "year_of_publication": 2022,
+        "stock": 6
+    },
+    "9781119800361": {
+        "title": "Operating System Concepts",
+        "author": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+        "publisher": "Wiley",
+        "volume": "10th Edition",
+        "year_of_publication": 2021,
+        "stock": 3
+    },
+    "9781838551981": {
+        "title": "Linux Kernel Programming",
+        "author": "Kaiwan N Billimoria",
+        "publisher": "Packt Publishing",
+        "volume": "2nd Edition",
+        "year_of_publication": 2021,
+        "stock": 7
+    },
+    "9780596005658": {
+        "title": "Understanding the Linux Kernel",
+        "author": "Daniel P. Bovet, Marco Cesati",
+        "publisher": "O'Reilly Media",
+        "volume": "3rd Edition",
+        "year_of_publication": 2020,
+        "stock": 8
+    },
+    "9780135462402": {
+        "title": "Windows Internals",
+        "author": "Pavel Yosifovich, Mark E. Russinovich, David A. Solomon, Alex Ionescu",
+        "publisher": "Microsoft Press",
+        "volume": "7th Edition",
+        "year_of_publication": 2020,
+        "stock": 2
+    },
+    "9781119731429": {
+        "title": "Data Structures and Algorithms in Python",
+        "author": "Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser",
+        "publisher": "Wiley",
+        "volume": "1st Edition",
+        "year_of_publication": 2021,
+        "stock": 5
+    },
+    "9781680507225": {
+        "title": "Problem Solving with Algorithms and Data Structures using Python",
+        "author": "Bradley N. Miller, David L. Ranum",
+        "publisher": "Franklin, Beedle & Associates Inc.",
+        "volume": "3rd Edition",
+        "year_of_publication": 2020,
+        "stock": 0
+    },
+    "9781838826201": {
+        "title": "Python Data Structures and Algorithms",
+        "author": "Benjamin Baka",
+        "publisher": "Packt Publishing",
+        "volume": "1st Edition",
+        "year_of_publication": 2020,
+        "stock": 4
+    },
+    "9780367355742": {
+        "title": "Algorithms and Data Structures for Massive Datasets",
+        "author": "Dzejla Medjedovic, John Reif",
+        "publisher": "CRC Press",
+        "volume": "1st Edition",
+        "year_of_publication": 2022,
+        "stock": 9
+    },
+    "9780134854543": {
+        "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+        "author": "Aurélien Géron",
+        "publisher": "O'Reilly Media",
+        "volume": "2nd Edition",
+        "year_of_publication": 2020,
+        "stock": 6
+    },
+    "9781119555162": {
+        "title": "Python Machine Learning",
+        "author": "Sebastian Raschka, Vahid Mirjalili",
+        "publisher": "Wiley",
+        "volume": "3rd Edition",
+        "year_of_publication": 2020,
+        "stock": 0
+    },
+    "9781492045021": {
+        "title": "Machine Learning with Python Cookbook",
+        "author": "Chris Albon",
+        "publisher": "O'Reilly Media",
+        "volume": "1st Edition",
+        "year_of_publication": 2020,
+        "stock": 7
+    },
+    "9781617294433": {
+        "title": "Deep Learning with Python",
+        "author": "François Chollet",
+        "publisher": "Manning Publications",
+        "volume": "2nd Edition",
+        "year_of_publication": 2021,
+        "stock": 8
+    },
+    "9781800209060": {
+        "title": "Machine Learning with PyTorch and Scikit-Learn",
+        "author": "Sebastian Raschka, Yuxi (Hayden) Liu, Vahid Mirjalili",
+        "publisher": "Packt Publishing",
+        "volume": "1st Edition",
+        "year_of_publication": 2022,
+        "stock": 3
+    },
+    "9781484272097": {
+        "title": "Machine Learning Engineering with Python",
+        "author": "Andrew P. McMahon",
+        "publisher": "Apress",
+        "volume": "1st Edition",
+        "year_of_publication": 2022,
+        "stock": 9
+    },
+    "9781913367315": {
+        "title": "Machine Learning for Absolute Beginners",
+        "author": "Oliver Theobald",
+        "publisher": "Independently Published",
+        "volume": "3rd Edition",
+        "year_of_publication": 2020,
+        "stock": 4
+    },
+    "9781787125933": {
+        "title": "Advanced Machine Learning with Python",
+        "author": "John Hearty",
+        "publisher": "Packt Publishing",
+        "volume": "1st Edition",
+        "year_of_publication": 2020,
+        "stock": 2
+    },
+    "9781789800883": {
+        "title": "Python Machine Learning Projects",
+        "author": "Lisa Tagliaferri",
+        "publisher": "Packt Publishing",
+        "volume": "1st Edition",
+        "year_of_publication": 2022,
+        "stock": 0
+    },
+    "9781492041139": {
+        "title": "Data Science from Scratch: First Principles with Python",
+        "author": "Joel Grus",
+        "publisher": "O'Reilly Media",
+        "volume": "2nd Edition",
+        "year_of_publication": 2020,
+        "stock": 7
+    },
+    "9781492051695": {
+        "title": "Natural Language Processing with Python",
+        "author": "Steven Bird, Ewan Klein, Edward Loper",
+        "publisher": "O'Reilly Media",
+        "volume": "2nd Edition",
+        "year_of_publication": 2021,
+        "stock": 1
+    },
+    "9781491963043": {
+        "title": "Applied Text Analysis with Python: Enabling Language-Aware Data Products with Machine Learning",
+        "author": "Benjamin Bengfort, Rebecca Bilbro, Tony Ojeda",
+        "publisher": "O'Reilly Media",
+        "volume": "1st Edition",
+        "year_of_publication": 2020,
+        "stock": 5
+    },
+    "9781492043493": {
+        "title": "Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play",
+        "author": "David Foster",
+        "publisher": "O'Reilly Media",
+        "volume": "1st Edition",
+        "year_of_publication": 2020,
+        "stock": 8
+    },
+    "9781138492537": {
+        "title": "Data Science and Machine Learning: Mathematical and Statistical Methods",
+        "author": "Dirk P. Kroese, Zdravko I. Botev, Thomas Taimre, Radislav Vaisman",
+        "publisher": "CRC Press",
+        "volume": "1st Edition",
+        "year_of_publication": 2020,
+        "stock": 6
+    },
+    "9781492064337": {
+        "title": "Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps",
+        "author": "Valliappa Lakshmanan, Sara Robinson, Michael Munn",
+        "publisher": "O'Reilly Media",
+        "volume": "1st Edition",
+        "year_of_publication": 2020,
+        "stock": 9
+    },
+    "9783031333422": {
+        "title": "Machine Learning with Python: Theory and Implementation",
+        "author": "Amin Zollanvari",
+        "publisher": "Springer Cham",
+        "volume": "1st Edition",
+        "year_of_publication": 2023,
+        "stock": 2
+    }
+}
