@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.book {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    border: black solid 3px;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.author {
+    font-style: italic;
+}
+
+.genre {
+    text-decoration: underline;
+}

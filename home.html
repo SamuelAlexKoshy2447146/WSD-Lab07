@@ -1,40 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Catalogue</title>
-</head>
-<body>
-    <div id="book-list" class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Book Catalogue</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="flex" style="padding-top: 50px">
+            <div class="container-md" style="width: 10%; margin-left: 5%">
+                <div class="mb-3">
+                    <label for="author" class="form-label">Author</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="author"
+                        placeholder="Author"
+                    />
+                </div>
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="title"
+                        placeholder="Title"
+                    />
+                </div>
+                <div class="mb-3">
+                    <label for="Genre" class="form-label">Genre</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="Genre"
+                        placeholder="Genre"
+                    />
+                </div>
+                <div class="mb-3">
+                    <label for="pages" class="form-label">Pages</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="pages"
+                        placeholder="Pages"
+                    />
+                </div>
+                <button onclick="search()">Search</button>
+            </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            fetch('books.json')
-                .then(response => response.json())
-                .then(books => {
-                    const tableBody = document.getElementById('book-table-body');
-                    Object.keys(books).forEach(isbn => {
-                        const book = books[isbn];
-                        const row = document.createElement('tr');
-
-                        row.innerHTML = `
-                            <td class="py-2 px-4 border-b">${isbn}</td>
-                            <td class="py-2 px-4 border-b">${book.title}</td>
-                            <td class="py-2 px-4 border-b">${book.author}</td>
-                            <td class="py-2 px-4 border-b">${book.publisher}</td>
-                            <td class="py-2 px-4 border-b">${book.volume || 'N/A'}</td>
-                            <td class="py-2 px-4 border-b">${book.year_of_publication}</td>
-                            <td class="py-2 px-4 border-b">${book.stock}</td>
-                        `;
-                        tableBody.appendChild(row);
-                    });
-                })
-                .catch(error => {
-                    console.error('Error fetching the books data:', error);
-                });
-        });
-    </script>
-
-</body>
+            <div id="book-list" class="container grid" style="width: 80%">
+                <div class="row" id="row"></div>
+            </div>
+        </div>
+        <script src="book.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
