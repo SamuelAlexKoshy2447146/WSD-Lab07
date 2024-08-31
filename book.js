@@ -1,6 +1,8 @@
 const baseURL = "https://samuelalexkoshy2447146.github.io/WSD-Lab07/books.json";
 
-var booklist = [];
+let booklist = [];
+let page = 1;
+let books = [];
 
 document.addEventListener("DOMContentLoaded", async () => {
     await fetch(baseURL)
@@ -8,12 +10,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         .then((data) => {
             booklist = data;
         });
-    displayBooks(booklist);
+    page = 1;
+    books = booklist;
+    displayBooks();
 });
 
-function displayBooks(books) {
+function displayBooks() {
     document.getElementById("row").innerHTML = "";
-    for (let i = 0; i < Math.min(15, books.length); i++) {
+    start = (page - 1) * 15;
+    stop = page * 15;
+    for (let i = start; i < Math.min(stop, books.length); i++) {
         let newbook = document.createElement("div");
         newbook.className = "book";
         let title = document.createElement("div");
@@ -36,6 +42,14 @@ function displayBooks(books) {
         newbook.appendChild(pages);
         document.getElementById("row").appendChild(newbook);
     }
+    prevPage = document.getElementById("prevPage").disabled = page === 1;
+    nextPage = document.getElementById("nextPage").disabled =
+        books.length <= stop;
+}
+
+function changePage(index) {
+    page = page + index;
+    displayBooks();
 }
 
 function search() {
@@ -65,6 +79,7 @@ function search() {
             return 0;
         });
     }
-
-    displayBooks(filteredBooks);
+    page = 1;
+    books = filteredBooks;
+    displayBooks();
 }
