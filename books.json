@@ -1,202 +1,212 @@
-{
-    "9780134853979": {
-        "title": "Modern Operating Systems",
-        "author": "Andrew S. Tanenbaum, Herbert Bos",
-        "publisher": "Pearson",
-        "volume": "4th Edition",
-        "year_of_publication": 2022,
-        "stock": 6
+[
+    {
+        "title": "The Silent Forest",
+        "description": "A suspenseful tale of survival and discovery in a mysterious forest.",
+        "author": "James Whitfield",
+        "genre": "Thriller",
+        "pages": 350
     },
-    "9781119800361": {
-        "title": "Operating System Concepts",
-        "author": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
-        "publisher": "Wiley",
-        "volume": "10th Edition",
-        "year_of_publication": 2021,
-        "stock": 3
+    {
+        "title": "Echoes of the Past",
+        "description": "A gripping historical novel set during the civil war, exploring love and betrayal.",
+        "author": "Emily Turner",
+        "genre": "Historical Fiction",
+        "pages": 400
     },
-    "9781838551981": {
-        "title": "Linux Kernel Programming",
-        "author": "Kaiwan N Billimoria",
-        "publisher": "Packt Publishing",
-        "volume": "2nd Edition",
-        "year_of_publication": 2021,
-        "stock": 7
+    {
+        "title": "Beyond the Horizon",
+        "description": "An inspiring journey of self-discovery and adventure on the open seas.",
+        "author": "Isabella Reid",
+        "genre": "Adventure",
+        "pages": 280
     },
-    "9780596005658": {
-        "title": "Understanding the Linux Kernel",
-        "author": "Daniel P. Bovet, Marco Cesati",
-        "publisher": "O'Reilly Media",
-        "volume": "3rd Edition",
-        "year_of_publication": 2020,
-        "stock": 8
+    {
+        "title": "The Quantum Paradox",
+        "description": "A mind-bending science fiction story that delves into the mysteries of quantum mechanics.",
+        "author": "Dr. Alan Harper",
+        "genre": "Science Fiction",
+        "pages": 320
     },
-    "9780135462402": {
-        "title": "Windows Internals",
-        "author": "Pavel Yosifovich, Mark E. Russinovich, David A. Solomon, Alex Ionescu",
-        "publisher": "Microsoft Press",
-        "volume": "7th Edition",
-        "year_of_publication": 2020,
-        "stock": 2
+    {
+        "title": "Whispers in the Wind",
+        "description": "A romance novel set in the picturesque countryside, where love blooms in unexpected ways.",
+        "author": "Samantha Green",
+        "genre": "Romance",
+        "pages": 290
     },
-    "9781119731429": {
-        "title": "Data Structures and Algorithms in Python",
-        "author": "Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser",
-        "publisher": "Wiley",
-        "volume": "1st Edition",
-        "year_of_publication": 2021,
-        "stock": 5
+    {
+        "title": "The Art of War",
+        "description": "An in-depth analysis of military strategy and tactics from ancient times to the modern era.",
+        "author": "Marcus Stone",
+        "genre": "Non-Fiction",
+        "pages": 450
     },
-    "9781680507225": {
-        "title": "Problem Solving with Algorithms and Data Structures using Python",
-        "author": "Bradley N. Miller, David L. Ranum",
-        "publisher": "Franklin, Beedle & Associates Inc.",
-        "volume": "3rd Edition",
-        "year_of_publication": 2020,
-        "stock": 0
+    {
+        "title": "The Lost City",
+        "description": "An archaeological adventure that uncovers the secrets of a forgotten civilization.",
+        "author": "Laura Bennett",
+        "genre": "Adventure",
+        "pages": 310
     },
-    "9781838826201": {
-        "title": "Python Data Structures and Algorithms",
-        "author": "Benjamin Baka",
-        "publisher": "Packt Publishing",
-        "volume": "1st Edition",
-        "year_of_publication": 2020,
-        "stock": 4
+    {
+        "title": "Mysteries of the Universe",
+        "description": "A comprehensive guide to the most profound questions about the cosmos.",
+        "author": "Dr. Carl Simmons",
+        "genre": "Science",
+        "pages": 500
     },
-    "9780367355742": {
-        "title": "Algorithms and Data Structures for Massive Datasets",
-        "author": "Dzejla Medjedovic, John Reif",
-        "publisher": "CRC Press",
-        "volume": "1st Edition",
-        "year_of_publication": 2022,
-        "stock": 9
+    {
+        "title": "The Final Frontier",
+        "description": "A space exploration epic that pushes the boundaries of human endurance and spirit.",
+        "author": "David Anderson",
+        "genre": "Science Fiction",
+        "pages": 410
     },
-    "9780134854543": {
-        "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
-        "author": "Aurélien Géron",
-        "publisher": "O'Reilly Media",
-        "volume": "2nd Edition",
-        "year_of_publication": 2020,
-        "stock": 6
+    {
+        "title": "Broken Chains",
+        "description": "A heart-wrenching story of resilience and redemption in the face of insurmountable odds.",
+        "author": "Lydia Roberts",
+        "genre": "Drama",
+        "pages": 340
     },
-    "9781119555162": {
-        "title": "Python Machine Learning",
-        "author": "Sebastian Raschka, Vahid Mirjalili",
-        "publisher": "Wiley",
-        "volume": "3rd Edition",
-        "year_of_publication": 2020,
-        "stock": 0
+    {
+        "title": "A Culinary Journey",
+        "description": "An exploration of world cuisines through the eyes of a passionate chef.",
+        "author": "Chef Antonio Russo",
+        "genre": "Cookbook",
+        "pages": 275
     },
-    "9781492045021": {
-        "title": "Machine Learning with Python Cookbook",
-        "author": "Chris Albon",
-        "publisher": "O'Reilly Media",
-        "volume": "1st Edition",
-        "year_of_publication": 2020,
-        "stock": 7
+    {
+        "title": "The Digital Revolution",
+        "description": "An insightful look into how technology has transformed our world and what the future holds.",
+        "author": "Rebecca Cole",
+        "genre": "Technology",
+        "pages": 360
     },
-    "9781617294433": {
-        "title": "Deep Learning with Python",
-        "author": "François Chollet",
-        "publisher": "Manning Publications",
-        "volume": "2nd Edition",
-        "year_of_publication": 2021,
-        "stock": 8
+    {
+        "title": "The Shadow of the Mountain",
+        "description": "A thrilling adventure set in the rugged wilderness, where danger lurks around every corner.",
+        "author": "Mark Thompson",
+        "genre": "Adventure",
+        "pages": 380
     },
-    "9781800209060": {
-        "title": "Machine Learning with PyTorch and Scikit-Learn",
-        "author": "Sebastian Raschka, Yuxi (Hayden) Liu, Vahid Mirjalili",
-        "publisher": "Packt Publishing",
-        "volume": "1st Edition",
-        "year_of_publication": 2022,
-        "stock": 3
+    {
+        "title": "The Art of Mindfulness",
+        "description": "A guide to achieving peace and clarity through the practice of mindfulness and meditation.",
+        "author": "Dr. Lily Chen",
+        "genre": "Self-Help",
+        "pages": 220
     },
-    "9781484272097": {
-        "title": "Machine Learning Engineering with Python",
-        "author": "Andrew P. McMahon",
-        "publisher": "Apress",
-        "volume": "1st Edition",
-        "year_of_publication": 2022,
-        "stock": 9
+    {
+        "title": "The Enigma Code",
+        "description": "A historical thriller that uncovers the mysteries behind one of the most famous codes in history.",
+        "author": "John Harrison",
+        "genre": "Thriller",
+        "pages": 330
     },
-    "9781913367315": {
-        "title": "Machine Learning for Absolute Beginners",
-        "author": "Oliver Theobald",
-        "publisher": "Independently Published",
-        "volume": "3rd Edition",
-        "year_of_publication": 2020,
-        "stock": 4
+    {
+        "title": "Wonders of the Ancient World",
+        "description": "An exploration of the most iconic monuments and cities of ancient civilizations.",
+        "author": "Dr. Olivia Grant",
+        "genre": "History",
+        "pages": 450
     },
-    "9781787125933": {
-        "title": "Advanced Machine Learning with Python",
-        "author": "John Hearty",
-        "publisher": "Packt Publishing",
-        "volume": "1st Edition",
-        "year_of_publication": 2020,
-        "stock": 2
+    {
+        "title": "The Infinite Loop",
+        "description": "A science fiction novel that explores the concept of time travel and its paradoxes.",
+        "author": "Ethan Clarke",
+        "genre": "Science Fiction",
+        "pages": 390
     },
-    "9781789800883": {
-        "title": "Python Machine Learning Projects",
-        "author": "Lisa Tagliaferri",
-        "publisher": "Packt Publishing",
-        "volume": "1st Edition",
-        "year_of_publication": 2022,
-        "stock": 0
+    {
+        "title": "Rising from Ashes",
+        "description": "A powerful story of overcoming adversity and finding strength in the face of despair.",
+        "author": "Nina Phillips",
+        "genre": "Drama",
+        "pages": 310
     },
-    "9781492041139": {
-        "title": "Data Science from Scratch: First Principles with Python",
-        "author": "Joel Grus",
-        "publisher": "O'Reilly Media",
-        "volume": "2nd Edition",
-        "year_of_publication": 2020,
-        "stock": 7
+    {
+        "title": "The Secret Garden",
+        "description": "A magical tale of a young girl's discovery of a hidden garden and the mysteries it holds.",
+        "author": "Sarah Parker",
+        "genre": "Fantasy",
+        "pages": 280
     },
-    "9781492051695": {
-        "title": "Natural Language Processing with Python",
-        "author": "Steven Bird, Ewan Klein, Edward Loper",
-        "publisher": "O'Reilly Media",
-        "volume": "2nd Edition",
-        "year_of_publication": 2021,
-        "stock": 1
+    {
+        "title": "The Philosophy of Life",
+        "description": "A thought-provoking book that delves into the fundamental questions of existence and purpose.",
+        "author": "Dr. Henry Matthews",
+        "genre": "Philosophy",
+        "pages": 240
     },
-    "9781491963043": {
-        "title": "Applied Text Analysis with Python: Enabling Language-Aware Data Products with Machine Learning",
-        "author": "Benjamin Bengfort, Rebecca Bilbro, Tony Ojeda",
-        "publisher": "O'Reilly Media",
-        "volume": "1st Edition",
-        "year_of_publication": 2020,
-        "stock": 5
+    {
+        "title": "Uncharted Waters",
+        "description": "A thrilling nautical adventure that tests the limits of courage and endurance.",
+        "author": "Michael Scott",
+        "genre": "Adventure",
+        "pages": 330
     },
-    "9781492043493": {
-        "title": "Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play",
-        "author": "David Foster",
-        "publisher": "O'Reilly Media",
-        "volume": "1st Edition",
-        "year_of_publication": 2020,
-        "stock": 8
+    {
+        "title": "The Hidden Truth",
+        "description": "A mystery novel that uncovers the dark secrets hidden within a seemingly perfect town.",
+        "author": "Victoria Blake",
+        "genre": "Mystery",
+        "pages": 290
     },
-    "9781138492537": {
-        "title": "Data Science and Machine Learning: Mathematical and Statistical Methods",
-        "author": "Dirk P. Kroese, Zdravko I. Botev, Thomas Taimre, Radislav Vaisman",
-        "publisher": "CRC Press",
-        "volume": "1st Edition",
-        "year_of_publication": 2020,
-        "stock": 6
+    {
+        "title": "Tales of the Forgotten",
+        "description": "A collection of short stories that brings to life the voices of those often overlooked by history.",
+        "author": "Christopher Moore",
+        "genre": "Historical Fiction",
+        "pages": 370
     },
-    "9781492064337": {
-        "title": "Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps",
-        "author": "Valliappa Lakshmanan, Sara Robinson, Michael Munn",
-        "publisher": "O'Reilly Media",
-        "volume": "1st Edition",
-        "year_of_publication": 2020,
-        "stock": 9
+    {
+        "title": "The Road Less Traveled",
+        "description": "A motivational book that encourages readers to pursue their dreams and take the path less followed.",
+        "author": "Laura Adams",
+        "genre": "Self-Help",
+        "pages": 260
     },
-    "9783031333422": {
-        "title": "Machine Learning with Python: Theory and Implementation",
-        "author": "Amin Zollanvari",
-        "publisher": "Springer Cham",
-        "volume": "1st Edition",
-        "year_of_publication": 2023,
-        "stock": 2
+    {
+        "title": "The Galactic Odyssey",
+        "description": "A science fiction saga that takes readers on an epic journey through space and time.",
+        "author": "Lucas Reynolds",
+        "genre": "Science Fiction",
+        "pages": 420
+    },
+    {
+        "title": "Beneath the Surface",
+        "description": "A psychological thriller that delves into the hidden depths of the human mind.",
+        "author": "Olivia Carter",
+        "genre": "Thriller",
+        "pages": 310
+    },
+    {
+        "title": "The Poet's Heart",
+        "description": "A collection of poems that explore the beauty and pain of love and loss.",
+        "author": "Eleanor Grey",
+        "genre": "Poetry",
+        "pages": 150
+    },
+    {
+        "title": "The Forbidden Kingdom",
+        "description": "A fantasy adventure that takes readers to a mystical land ruled by ancient forces.",
+        "author": "Arthur Lawrence",
+        "genre": "Fantasy",
+        "pages": 450
+    },
+    {
+        "title": "The Hidden Path",
+        "description": "An adventure that follows a group of explorers uncovering the secrets of an ancient civilization.",
+        "author": "Laura Bennett",
+        "genre": "Adventure",
+        "pages": 390
+    },
+    {
+        "title": "The Last Voyage",
+        "description": "A historical novel that follows the harrowing journey of a ship lost at sea.",
+        "author": "Mark Thompson",
+        "genre": "Historical Fiction",
+        "pages": 310
     }
-}
+]
