@@ -38,7 +38,7 @@
                     <input
                         type="text"
                         class="form-control"
-                        id="Genre"
+                        id="genre"
                         placeholder="Genre"
                     />
                 </div>
@@ -51,6 +51,13 @@
                         placeholder="Pages"
                     />
                 </div>
+                <select id="sortCriteria">
+                    <option value="">Sort by...</option>
+                    <option value="title">Title</option>
+                    <option value="author">Author</option>
+                    <option value="genre">Genre</option>
+                    <option value="pages">Pages</option>
+                </select>
                 <button onclick="search()">Search</button>
             </div>
 

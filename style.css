@@ -7,8 +7,9 @@
 
 .book {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 30%;
     border: black solid 3px;
+    margin: 2px;
 }
 
 .title {
@@ -22,4 +23,8 @@
 
 .genre {
     text-decoration: underline;
+}
+
+#sortCriteria {
+    margin-bottom: 10%;
 }
