@@ -56,7 +56,8 @@ function search() {
     const titleQuery = document.getElementById("title").value.toLowerCase();
     const authorQuery = document.getElementById("author").value.toLowerCase();
     const genreQuery = document.getElementById("genre").value.toLowerCase();
-    const pagesQuery = document.getElementById("pages").value;
+    const minPagesQuery = document.getElementById("minPages").value;
+    const maxPagesQuery = document.getElementById("maxPages").value;
     const sortCriteria = document.getElementById("sortCriteria").value;
 
     const filteredBooks = booklist.filter(
@@ -67,7 +68,8 @@ function search() {
                 book.author.toLowerCase().includes(authorQuery)) &&
             (genreQuery === "" ||
                 book.genre.toLowerCase().includes(genreQuery)) &&
-            (pagesQuery === "" || book.pages >= pagesQuery)
+            (minPagesQuery === "" || book.pages >= pagesQuery) &&
+            (maxPagesQuery === "" || book.pages <= maxPagesQuery)
     );
     if (sortCriteria) {
         filteredBooks.sort((a, b) => {
